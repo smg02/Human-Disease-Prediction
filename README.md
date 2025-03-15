@@ -6,9 +6,15 @@
 ### Deployment Steps
 Please follow the below steps to run this project.
 <br>
-1. `pip install -r requirements.txt`<br>
-2. `cd frontend`<br>
-3. `streamlit run app.py`<br><br>
+To build the docker
+```
+docker build -t disease-prediction .
+```
+To run the docker
+```
+docker run -p 8501:8501 disease-prediction
+```
+
 
 
 ### Platform, Libraries and Frameworks used
